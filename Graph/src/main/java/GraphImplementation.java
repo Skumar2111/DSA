@@ -1,3 +1,4 @@
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 
 /***
@@ -9,6 +10,8 @@ public class GraphImplementation {
 
     public static void main(String[] args) {
 
+        Class <BFSImplementation> bfs = BFSImplementation.class;
+        Method[] methods = bfs.getMethods();
         int vertex = 5;
         ArrayList<ArrayList<Integer>> initGraph = new ArrayList<ArrayList<Integer>>();
 
