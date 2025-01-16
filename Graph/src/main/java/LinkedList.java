@@ -25,6 +25,13 @@ public class LinkedList {
         second.next = thirdNode;
         thirdNode.next = null;
 
+        Node n = lList.head;
+
+        while (n != null)
+        {
+            System.out.println(n.data);
+            n = n.next;
+        }
 
 
 
