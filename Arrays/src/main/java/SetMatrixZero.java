@@ -5,6 +5,10 @@ public class SetMatrixZero {
 
     public static void main(String[] args) {
 
+        int[][] mat = new int[3][3];
+
+
+
             ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
             matrix.add(new ArrayList<>(Arrays.asList(1, 1, 1)));
             matrix.add(new ArrayList<>(Arrays.asList(1, 0, 1)));
