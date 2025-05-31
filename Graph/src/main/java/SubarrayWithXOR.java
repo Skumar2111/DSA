@@ -8,7 +8,7 @@ public class SubarrayWithXOR {
 
         int[] arr = {4,2,2,6,4};
         int k = 6;
-        subArrayXorSolution(arr,k);
+        System.out.println(subArrayXorSolution(arr,k));
 
     }
 
