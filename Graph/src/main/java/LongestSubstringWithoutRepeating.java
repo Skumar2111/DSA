@@ -7,8 +7,6 @@ public class LongestSubstringWithoutRepeating {
 
         String str = "abcdacabd";
         System.out.println(lengthOfLongestSubstring(str));
-
-
     }
 
     private static int lengthOfLongestSubstring(String str) {
